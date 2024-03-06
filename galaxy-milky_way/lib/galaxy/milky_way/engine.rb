@@ -2,7 +2,7 @@ module Galaxy
   module MilkyWay
     class Engine < ::Rails::Engine
       isolate_namespace Galaxy::MilkyWay
-      engine_name :milky_way
+      engine_name :galaxy_milky_way
     end
   end
 end

@@ -3,7 +3,6 @@ PATH
   specs:
     galaxy (0.1.0)
       rails (>= 7.1.3.2)
-      view_component (>= 3.7.0)
 
 PATH
   remote: .
@@ -117,7 +116,6 @@ GEM
       net-pop
       net-smtp
     marcel (1.0.4)
-    method_source (1.0.0)
     mini_mime (1.1.5)
     minitest (5.22.2)
     mutex_m (0.2.0)
@@ -208,10 +206,6 @@ GEM
     timeout (0.4.1)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    view_component (3.11.0)
-      activesupport (>= 5.2.0, < 8.0)
-      concurrent-ruby (~> 1.0)
-      method_source (~> 1.0)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -237,7 +231,6 @@ DEPENDENCIES
   puma
   sprockets-rails
   sqlite3
-  view_component
   web-console
 
 BUNDLED WITH
