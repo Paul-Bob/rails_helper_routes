@@ -1,0 +1,15 @@
+#!/bin/bash
+
+directories=("galaxy" "galaxy-milky_way")
+
+for dir in "${directories[@]}"; do
+    echo "Entering $dir directory..."
+    cd "$dir" || { echo "Failed to enter $dir directory"; exit 1; }
+    echo "Bundling"
+    bundle
+    cd ..
+done
+
+cd "galaxy-milky_way"
+
+rails s
